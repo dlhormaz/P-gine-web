@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "show_filters": true,
+        "show_search": true
+      }
+    },
+    "collection-products": {
+      "type": "collection-products",
+      "settings": {
+        "products_per_page": 12,
+        "show_sorting": true
+      }
+    }
+  },
+  "order": ["collection-header", "collection-products"]
+}
