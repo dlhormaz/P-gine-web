@@ -1,0 +1,26 @@
+{
+  "name": "shopify-ecommerce-template",
+  "version": "1.0.0",
+  "description": "Plantilla profesional de e-commerce para Shopify",
+  "main": "index.js",
+  "scripts": {
+    "start": "shopify theme dev",
+    "build": "webpack build",
+    "watch": "webpack watch",
+    "test": "jest"
+  },
+  "keywords": [
+    "shopify",
+    "ecommerce",
+    "theme",
+    "store"
+  ],
+  "author": "dlhormaz",
+  "license": "MIT",
+  "devDependencies": {
+    "@shopify/cli": "^3.0.0",
+    "@shopify/theme-cli": "^2.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
